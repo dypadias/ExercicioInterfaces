@@ -23,6 +23,7 @@ public class Program {
 
     /**
      * @param args the command line arguments
+     * @throws java.text.ParseException
      */
     public static void main(String[] args) throws ParseException {
        

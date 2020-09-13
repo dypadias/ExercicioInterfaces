@@ -9,16 +9,8 @@ package model.services;
  *
  * @author dypad
  */
-public class BrasilTaxServices implements TaxService {
-
+public interface TaxService {
     
-    public double tax(double amount) {
-        if (amount <= 100.0) {
-            return amount * 0.2;
-        } else {
-            return amount * 0.15;
-        }
-
-    }
-
+    double tax(double amount);
+    
 }
